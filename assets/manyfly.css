@@ -1,0 +1,84 @@
+a {
+    background-color: #707070;
+    border-radius: 8px;
+    padding: 4px;
+    transition: all 0.5s ease-out;
+    color: white;
+    font-weight: 500;
+    -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  }
+  
+  a:link {
+    border-radius: 8px;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    background-color: #538a91;
+    border-radius: 20%;
+    text-decoration: underline;
+    color: white;
+  }
+  a:active {
+    background-color: green;
+    border-radius: 0;
+  }
+  h1#title {
+    color: green;
+    background-color: rgba(240, 0, 0, 0.27);
+    width: fit-content;
+    margin: 4px;
+    padding: 5px 10px;
+    border-radius: 16px;
+    text-align: center;
+    -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  }
+  h2#description {
+    color: grey;
+    font-weight: 100;
+    -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  }
+  body {
+    margin: 5px;
+    padding: 5px;
+    background-color: #3b3b3b;
+    animation: fadein 0.9s;
+  }
+  @keyframes fadein {
+   0% {
+   opacity:0;
+   }
+   50%{
+   opacity:0.5;
+   }
+   100% {
+   opacity:1;
+   }
+  }
+  footer {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    font-size: auto;
+    text-align: center;
+    border-radius: 10px;
+    height: 50%;
+  }
