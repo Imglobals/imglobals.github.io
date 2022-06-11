@@ -4,10 +4,15 @@
         {% include head.html %}
     </head>
     <body class="htmlbody">
+        <h1 id="title">ImGlobals</h1>
+        <h2 id="description">{{ site.description }}</h2>
         <nav>
             <a href="/">Home</a>
+            <a href="/copyright">Copyrights</a>
         </nav>
-        {{ content }}
+        <article>
+            {{ content }}
+        </article>
         <footer>The copyright belongs to Imglobals. The copyright of other content is on the "Copyright" page.</footer>
     </body>
 </html>
