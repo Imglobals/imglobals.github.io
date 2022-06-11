@@ -1,3 +1,12 @@
 title: im-Globals
 name: imglobals
 description: provides some tool, file and feature for website, application, and etc.
+url: https://imglobals.github.io
+github_username: Imglobals
+markdown: kramdown
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-youtube
+ 
