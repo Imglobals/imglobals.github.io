@@ -1,12 +1,25 @@
-title: im-Globals
-name: imglobals
-description: provides some tool, file and feature for website, application, and etc.
-url: https://imglobals.github.io
+ig             :
+  topText      : ImGlobals
+  manyfly      : /dl/manyfly.css
+  
+
+title          : im-Globals
+name           : imglobals
+description    : provides some tool, file and feature for website, application, and etc.
+url            : https://imglobals.github.io
 github_username: Imglobals
-markdown: kramdown
-plugins:
+markdown       : kramdown
+safe           : false
+plugins_dir    : _plugins
+plugins        :
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
  - jekyll-youtube
  
+include        :
+ - dl
+ - _pages
+ - .htaccess
+
+#lsi            : true

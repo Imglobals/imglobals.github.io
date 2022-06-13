@@ -4,9 +4,9 @@ layout: default
 ---
 
 <ul>
-    {% for page in site.pages %}
+    {% for pagest in site._pages %}
       <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ pagest.url }}">{{ pagest.title }}</a>
       </li>
     {% endfor %}
 </ul>
