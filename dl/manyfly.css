@@ -154,6 +154,7 @@ code {
 /*v0.02*/
 ul {
   list-style: square;
+  list-style-image:  url(/assets/Folder.svg);
   background-color: grey;
   border-radius: 8px;
   text-align: center;
