@@ -1,0 +1,4 @@
+---
+title: yay
+layout: postindex
+---
