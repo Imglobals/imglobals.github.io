@@ -27,7 +27,7 @@ This page lists the sites that own the copyrights to the scripts, stylesheets, a
 
 ## CSS
 
-[ManyFly](https://imglobals.github.io/_pages/manyFly) I also created this stylesheet for all sites and applications
+[ManyFly](https://imglobals.github.io/pagt/manyFly) I also created this stylesheet for all sites and applications
 
 [FiraCode](https://github.com/tonsky/FiraCode) improves Programming Fonts
 
