@@ -1,3 +1,16 @@
+/*
+ * ManyFly like Modern Stylesheet v0.02 by ImGlobals - Custom Style
+ * https://imglobals.github.io/_pages/manyFly
+ *
+ * Make your website cool with manyfly
+ *
+ * Develop Status Is In Development
+ *
+ * Author: ImGlobals
+ * note: only css learner and css knower can edit this style.
+*/
+
+/*v0.01*/
 a {
   flex: 1;
   background-color: #707070;
@@ -129,10 +142,77 @@ article {
   background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.1326505602240896) 100%);
   border-radius: 10px;
   padding: 2px;
+  color: white;
+  font-weight: bold;
 }
 code {
   background-color: rgba(255,255,255,0.2);
   padding: 2px;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
+}
+/*v0.02*/
+ul {
+  list-style: square;
+  background-color: grey;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  align-content: center;
+  margin: 5px;
+}
+header {
+  background-color: grey;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+div {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+}
+aside {
+  background-color: green;
+  border-radius: 4px;
+  margin: 3px;
+  padding: 7px;
+  text-align: right;
+  display: flex;
+}
+blockquote{
+  background-color: grey;
+  border-radius: 5px;
+}
+details{
+  background-color: beige;
+  padding: 5px;
+  border-radius: 5px;
+}
+fieldset{
+  background-color: brown;
+  border: solid;
+  color: white;
+}
+dialog{
+  background-color: lightblue;
+  border: solid green;
+  border-radius: 16px;
+  margin: auto;
+  padding: 16px;
+}
+pre{
+  background-color: black;
+  border-radius: 5%;
+}
+address{
+  background-color: #708090;
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
 }

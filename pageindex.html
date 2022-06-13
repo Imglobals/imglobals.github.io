@@ -4,9 +4,9 @@ layout: default
 ---
 
 <ul>
-    {% for pages in site.pages %}
+    {% for page in site.pages %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ page.url }}">{{ page.title }}</a>
       </li>
     {% endfor %}
 </ul>
