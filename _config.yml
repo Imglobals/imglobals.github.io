@@ -2,6 +2,9 @@ ig             :
   topText      : ImGlobals
   manyfly      : /dl/manyfly.css
   
+pagt: ./pagt
+pagt2: /pagt
+pagt3: pagt/
 
 title          : im-Globals
 name           : imglobals
